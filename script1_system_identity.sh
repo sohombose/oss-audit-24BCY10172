@@ -1,19 +1,19 @@
 #!/bin/bash
 # ============================================================
 # Script 1: System Identity Report
-# Author: [Your Name] | Roll: [Your Roll Number]
+# Author: Sohom Bose | Regn: 24BCY10172
 # Course: Open Source Software | Chosen Software: Linux Kernel
 # Description: Displays system information like a welcome screen
 # ============================================================
 
 # --- Variables ---
-STUDENT_NAME="[Your Name]"        # Replace with your actual name
+STUDENT_NAME="Sohom Bose"        
 SOFTWARE_CHOICE="Linux Kernel"    # Our chosen open-source software
 
 # --- Collect system information using command substitution ---
-KERNEL=$(uname -r)                         # Gets the kernel version
-DISTRO=$(lsb_release -d | cut -f2)        # Gets the Ubuntu distro name
-USER_NAME=$(whoami)                        # Gets the current logged-in user
+KERNEL=$(uname -r)                      # Gets the kernel version
+DISTRO=$(lsb_release -d | cut -f2)      # Gets the Ubuntu distro name
+USER_NAME=$(whoami)                     # Gets the current logged-in user
 HOME_DIR=$HOME                             # Gets the home directory path
 UPTIME=$(uptime -p)                        # Gets human-readable uptime
 CURRENT_DATE=$(date '+%d %B %Y, %H:%M:%S') # Gets current date and time
@@ -27,6 +27,7 @@ echo "  Student   : $STUDENT_NAME"
 echo "  Software  : $SOFTWARE_CHOICE"
 echo ""
 echo "--------------------------------------------------------"
+
 echo "  SYSTEM INFORMATION"
 echo "--------------------------------------------------------"
 echo "  Distribution : $DISTRO"
