@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Script 5: Open Source Manifesto Generator
-# Author: [Your Name] | Roll: [Your Roll Number]
+# Author: Sohom Bose | Regn: 24BCY10172
 # Course: Open Source Software | Chosen Software: Linux Kernel
 # Description: Asks the user 3 questions interactively and
 #              generates a personalised open source manifesto,
