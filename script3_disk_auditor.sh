@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Script 3: Disk and Permission Auditor
-# Author: [Your Name] | Roll: [Your Roll Number]
+# Author: Sohom Bose | Regn: 24BCY10172
 # Course: Open Source Software | Chosen Software: Linux Kernel
 # Description: Loops through key Linux directories and reports
 #              their size, owner, and permissions
