@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Script 2: FOSS Package Inspector
-# Author: [Your Name] | Roll: [Your Roll Number]
+# Author: Sohom Bose | Regn: 24BCY10172
 # Course: Open Source Software | Chosen Software: Linux Kernel
 # Description: Checks if key open-source packages are installed,
 #              shows version info, and prints a philosophy note
